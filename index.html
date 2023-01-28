@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div id="content">        
+            <h1>
+                JavaScript - Tic Tac Toe with bitmask
+            </h1>
+            <p class="info-text">
+                X = KI
+                <br>
+                O = Player
+            </p>
+            <table id= "game-table">
+                <tr>
+                    <td id="00"><p ></p></td>
+                    <td id="01"></td>
+                    <td id="02"></td>
+                </tr>
+                <tr>
+                    <td id="10"></td>
+                    <td id="11"></td>
+                    <td id="12"></td>
+                </tr>
+                <tr>
+                    <td id="20"></td>
+                    <td id="21"></td>
+                    <td id="22"></td>
+                </tr>
+            </table>
+        </div>
+        
+        <br>
+
+        <p id="status-field"></p>
+        <button onclick="reset_game();">Reset</button>
+    </body>
+    <script src="tic-tac-toe.js"></script>
+</html>
